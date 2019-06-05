@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="cicjust_splinter@192.168.1.170">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="cicjust_splinter">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="baocms3"/>
+    <schema id="4" parent="1" name="bjh"/>
+    <schema id="5" parent="1" name="c-cms"/>
+    <schema id="6" parent="1" name="cicc_quartz"/>
+    <schema id="7" parent="1" name="cic_crm"/>
+    <schema id="8" parent="1" name="cic_customer"/>
+    <schema id="9" parent="1" name="cic_declaration"/>
+    <schema id="10" parent="1" name="cic_ecms"/>
+    <schema id="11" parent="1" name="cic_ecms_fm"/>
+    <schema id="12" parent="1" name="cic_ecms_platform"/>
+    <schema id="13" parent="1" name="cic_finance"/>
+    <schema id="14" parent="1" name="cic_finance_en"/>
+    <schema id="15" parent="1" name="cic_industry_privilege"/>
+    <schema id="16" parent="1" name="cic_industry_zone"/>
+    <schema id="17" parent="1" name="cic_invoice"/>
+    <schema id="18" parent="1" name="cic_manager"/>
+    <schema id="19" parent="1" name="cic_ocr"/>
+    <schema id="20" parent="1" name="cic_pay"/>
+    <schema id="21" parent="1" name="cic_privilege"/>
+    <schema id="22" parent="1" name="cic_rbm"/>
+    <schema id="23" parent="1" name="cic_reimburse"/>
+    <schema id="24" parent="1" name="cr_debug"/>
+    <schema id="25" parent="1" name="dbid_case"/>
+    <schema id="26" parent="1" name="db_000000000000000001"/>
+    <schema id="27" parent="1" name="db_001415346110712183"/>
+    <schema id="28" parent="1" name="db_001865457101201171"/>
+    <schema id="29" parent="1" name="db_004541746110712182"/>
+    <schema id="30" parent="1" name="db_006525009101512168"/>
+    <schema id="31" parent="1" name="db_010090017151409166"/>
+    <schema id="32" parent="1" name="db_010650220151708181"/>
+    <schema id="33" parent="1" name="db_012820751091911187"/>
+    <schema id="34" parent="1" name="db_017065946152710170"/>
+    <schema id="35" parent="1" name="db_019245540091302178"/>
+    <schema id="36" parent="1" name="db_027023842110712188"/>
+    <schema id="37" parent="1" name="db_033470907091511177"/>
+    <schema id="38" parent="1" name="db_034194711142111176"/>
+    <schema id="39" parent="1" name="db_034412345082806177"/>
+    <schema id="40" parent="1" name="db_034731940141909175"/>
+    <schema id="41" parent="1" name="db_034981024091201182"/>
+    <schema id="42" parent="1" name="db_041580246162011178"/>
+    <schema id="43" parent="1" name="db_047223458092211170"/>
+    <schema id="44" parent="1" name="db_050594534110712181"/>
+    <schema id="45" parent="1" name="db_050631820131110170"/>
+    <schema id="46" parent="1" name="db_051681750150702186"/>
+    <schema id="47" parent="1" name="db_052040656162009176"/>
+    <schema id="48" parent="1" name="db_052421425130312175"/>
+    <schema id="49" parent="1" name="db_058672300180202184"/>
+    <schema id="50" parent="1" name="db_060005240081703188"/>
+    <schema id="51" parent="1" name="db_063001936091810178"/>
+    <schema id="52" parent="1" name="db_063420009172201181"/>
+    <schema id="53" parent="1" name="db_064293502142905181"/>
+    <schema id="54" parent="1" name="db_077222925153010181"/>
+    <schema id="55" parent="1" name="db_077223238162011170"/>
+    <schema id="56" parent="1" name="db_079100041082009174"/>
+    <schema id="57" parent="1" name="db_080040320171608186"/>
+    <schema id="58" parent="1" name="db_081461741110712187"/>
+    <schema id="59" parent="1" name="db_081960935081309171"/>
+    <schema id="60" parent="1" name="db_082025428021502187"/>
+    <schema id="61" parent="1" name="db_083322829100908176"/>
+    <schema id="62" parent="1" name="db_084615829160809174"/>
+    <schema id="63" parent="1" name="db_087372849110712185"/>
+    <schema id="64" parent="1" name="db_087845939142012163"/>
+    <schema id="65" parent="1" name="db_102935017162703184"/>
+    <schema id="66" parent="1" name="db_104900749100902174"/>
+    <schema id="67" parent="1" name="db_108381800091207187"/>
+    <schema id="68" parent="1" name="db_109374820090203176"/>
+    <schema id="69" parent="1" name="db_111241915131409174"/>
+    <schema id="70" parent="1" name="db_112814953122109188"/>
+    <schema id="71" parent="1" name="db_113893033102509168"/>
+    <schema id="72" parent="1" name="db_115421257120806182"/>
+    <schema id="73" parent="1" name="db_116611410132910177"/>
+    <schema id="74" parent="1" name="db_120375733110712185"/>
+    <schema id="75" parent="1" name="db_120551647142209173"/>
+    <schema id="76" parent="1" name="db_123244437142109188"/>
+    <schema id="77" parent="1" name="db_124421338140905186"/>
+    <schema id="78" parent="1" name="db_125511852132008187"/>
+    <schema id="79" parent="1" name="db_125565550081711171"/>
+    <schema id="80" parent="1" name="db_126581642122009172"/>
+    <schema id="81" parent="1" name="db_127254459162109182"/>
+    <schema id="82" parent="1" name="db_127674959161610178"/>
+    <schema id="83" parent="1" name="db_130012437090204182"/>
+    <schema id="84" parent="1" name="db_131028996571138"/>
+    <schema id="85" parent="1" name="db_131053611111209171"/>
+    <schema id="86" parent="1" name="db_132141951140802172"/>
+    <schema id="87" parent="1" name="db_134080617132103186"/>
+    <schema id="88" parent="1" name="db_135030749121101182"/>
+    <schema id="89" parent="1" name="db_136064314172903187"/>
+    <schema id="90" parent="1" name="db_139644506092210185"/>
+    <schema id="91" parent="1" name="db_140920204130409188"/>
+    <schema id="92" parent="1" name="db_141873348120202183"/>
+    <schema id="93" parent="1" name="db_142982518160908182"/>
+    <schema id="94" parent="1" name="db_145811149110712184"/>
+    <schema id="95" parent="1" name="db_146121210172712171"/>
+    <schema id="96" parent="1" name="db_146374625141610177"/>
+    <schema id="97" parent="1" name="db_147701330142308184"/>
+    <schema id="98" parent="1" name="db_147761043110712181"/>
+    <schema id="99" parent="1" name="db_148493248141608187"/>
+    <schema id="100" parent="1" name="db_149390200090412178"/>
+    <schema id="101" parent="1" name="db_151344003141804183"/>
+    <schema id="102" parent="1" name="db_153160534141511175"/>
+    <schema id="103" parent="1" name="db_154054112171511185"/>
+    <schema id="104" parent="1" name="db_157011735100312172"/>
+    <schema id="105" parent="1" name="db_157120624150512174"/>
+    <schema id="106" parent="1" name="db_157150310172205188"/>
+    <schema id="107" parent="1" name="db_158860730101012182"/>
+    <schema id="108" parent="1" name="db_160415912101110170"/>
+    <schema id="109" parent="1" name="db_164754042162103175"/>
+    <schema id="110" parent="1" name="db_165121735110712184"/>
+    <schema id="111" parent="1" name="db_165161152103009171"/>
+    <schema id="112" parent="1" name="db_168113742121109183"/>
+    <schema id="113" parent="1" name="db_171010733141309171"/>
+    <schema id="114" parent="1" name="db_173124729090409172"/>
+    <schema id="115" parent="1" name="db_173173626152211171"/>
+    <schema id="116" parent="1" name="db_175713713090302171"/>
+    <schema id="117" parent="1" name="db_176254850153012164"/>
+    <schema id="118" parent="1" name="db_178465414141005176"/>
+    <schema id="119" parent="1" name="db_180855546082811171"/>
+    <schema id="120" parent="1" name="db_180901019141112187"/>
+    <schema id="121" parent="1" name="db_180991914161812183"/>
+    <schema id="122" parent="1" name="db_182634213150802174"/>
+    <schema id="123" parent="1" name="db_183143030100211181"/>
+    <schema id="124" parent="1" name="db_183384223141610172"/>
+    <schema id="125" parent="1" name="db_183491515152211176"/>
+    <schema id="126" parent="1" name="db_186285941171604181"/>
+    <schema id="127" parent="1" name="db_187104033110712183"/>
+    <schema id="128" parent="1" name="db_187950843102011183"/>
+    <schema id="129" parent="1" name="db_189100706131711175"/>
+    <schema id="130" parent="1" name="db_205090331091412176"/>
+    <schema id="131" parent="1" name="db_205124907092803183"/>
+    <schema id="132" parent="1" name="db_205441748141203183"/>
+    <schema id="133" parent="1" name="db_206380132110712182"/>
+    <schema id="134" parent="1" name="db_210005006160512173"/>
+    <schema id="135" parent="1" name="db_214000150161512175"/>
+    <schema id="136" parent="1" name="db_216071047110712183"/>
+    <schema id="137" parent="1" name="db_216541818151010178"/>
+    <schema id="138" parent="1" name="db_218415842162011171"/>
+    <schema id="139" parent="1" name="db_218600202162710173"/>
+    <schema id="140" parent="1" name="db_223722242110712183"/>
+    <schema id="141" parent="1" name="db_227145857092009173"/>
+    <schema id="142" parent="1" name="db_227274031152211170"/>
+    <schema id="143" parent="1" name="db_227754331052102181"/>
+    <schema id="144" parent="1" name="db_228094308090412171"/>
+    <schema id="145" parent="1" name="db_229810636110712181"/>
+    <schema id="146" parent="1" name="db_230071337110712181"/>
+    <schema id="147" parent="1" name="db_231050642110712186"/>
+    <schema id="148" parent="1" name="db_232710159150809171"/>
+    <schema id="149" parent="1" name="db_232930532110409184"/>
+    <schema id="150" parent="1" name="db_233462512110912167"/>
+    <schema id="151" parent="1" name="db_234970940152011170"/>
+    <schema id="152" parent="1" name="db_235244600172106180"/>
+    <schema id="153" parent="1" name="db_235925446152011173"/>
+    <schema id="154" parent="1" name="db_235980004141010173"/>
+    <schema id="155" parent="1" name="db_238062629172509160"/>
+    <schema id="156" parent="1" name="db_241420953141901175"/>
+    <schema id="157" parent="1" name="db_243565947092712160"/>
+    <schema id="158" parent="1" name="db_244280041110712186"/>
+    <schema id="159" parent="1" name="db_245310941151801182"/>
+    <schema id="160" parent="1" name="db_246502529171909177"/>
+    <schema id="161" parent="1" name="db_250255542110712183"/>
+    <schema id="162" parent="1" name="db_251424402140512173"/>
+    <schema id="163" parent="1" name="db_251432936141511177"/>
+    <schema id="164" parent="1" name="db_253280202132712187"/>
+    <schema id="165" parent="1" name="db_255660503102107171"/>
+    <schema id="166" parent="1" name="db_256274451142109188"/>
+    <schema id="167" parent="1" name="db_263823402160711182"/>
+    <schema id="168" parent="1" name="db_271161554082211172"/>
+    <schema id="169" parent="1" name="db_272622355162308178"/>
+    <schema id="170" parent="1" name="db_273961514101209176"/>
+    <schema id="171" parent="1" name="db_274174245110712180"/>
+    <schema id="172" parent="1" name="db_274361431110712181"/>
+    <schema id="173" parent="1" name="db_277310128100712172"/>
+    <schema id="174" parent="1" name="db_280014627152211171"/>
+    <schema id="175" parent="1" name="db_281075909150702171"/>
+    <schema id="176" parent="1" name="db_281382824162703186"/>
+    <schema id="177" parent="1" name="db_282882402091511172"/>
+    <schema id="178" parent="1" name="db_284075830110712183"/>
+    <schema id="179" parent="1" name="db_285682747110712184"/>
+    <schema id="180" parent="1" name="db_286194002101704185"/>
+    <schema id="181" parent="1" name="db_286932936152805184"/>
+    <schema id="182" parent="1" name="db_287413637090910160"/>
+    <schema id="183" parent="1" name="db_289102053080501187"/>
+    <schema id="184" parent="1" name="db_300294811152211174"/>
+    <schema id="185" parent="1" name="db_300923257080501181"/>
+    <schema id="186" parent="1" name="db_301202731100712177"/>
+    <schema id="187" parent="1" name="db_302015120100902172"/>
+    <schema id="188" parent="1" name="db_302232138101012188"/>
+    <schema id="189" parent="1" name="db_302470139131601174"/>
+    <schema id="190" parent="1" name="db_302841159160910173"/>
+    <schema id="191" parent="1" name="db_304552921151101172"/>
+    <schema id="192" parent="1" name="db_307261850161211182"/>
+    <schema id="193" parent="1" name="db_308655038110712182"/>
+    <schema id="194" parent="1" name="db_310342842210412186"/>
+    <schema id="195" parent="1" name="db_310465370542619"/>
+    <schema id="196" parent="1" name="db_311950505132308188"/>
+    <schema id="197" parent="1" name="db_312163416090609176"/>
+    <schema id="198" parent="1" name="db_314955016100512187"/>
+    <schema id="199" parent="1" name="db_317704854170202183"/>
+    <schema id="200" parent="1" name="db_320211759081711178"/>
+    <schema id="201" parent="1" name="db_321825620110512176"/>
+    <schema id="202" parent="1" name="db_324552149081711177"/>
+    <schema id="203" parent="1" name="db_324624149162211173"/>
+    <schema id="204" parent="1" name="db_325385945110712184"/>
+    <schema id="205" parent="1" name="db_328943621151010173"/>
+    <schema id="206" parent="1" name="db_330775253132510187"/>
+    <schema id="207" parent="1" name="db_331164039110712185"/>
+    <schema id="208" parent="1" name="db_335684444161701175"/>
+    <schema id="209" parent="1" name="db_337930840220412184"/>
+    <schema id="210" parent="1" name="db_340772703102202177"/>
+    <schema id="211" parent="1" name="db_349204336091110184"/>
+    <schema id="212" parent="1" name="db_349561234110712181"/>
+    <schema id="213" parent="1" name="db_351475610090811187"/>
+    <schema id="214" parent="1" name="db_354162846160811182"/>
+    <schema id="215" parent="1" name="db_354451046082811174"/>
+    <schema id="216" parent="1" name="db_354610256082606183"/>
+    <schema id="217" parent="1" name="db_355095056143011183"/>
+    <schema id="218" parent="1" name="db_355775509142111173"/>
+    <schema id="219" parent="1" name="db_355983021141610173"/>
+    <schema id="220" parent="1" name="db_356645903152304187"/>
+    <schema id="221" parent="1" name="db_358464445132811187"/>
+    <schema id="222" parent="1" name="db_361135328161112186"/>
+    <schema id="223" parent="1" name="db_361660046161110177"/>
+    <schema id="224" parent="1" name="db_363035008151111187"/>
+    <schema id="225" parent="1" name="db_365625112092208183"/>
+    <schema id="226" parent="1" name="db_367854817090702178"/>
+    <schema id="227" parent="1" name="db_372140224142209178"/>
+    <schema id="228" parent="1" name="db_372555506131403186"/>
+    <schema id="229" parent="1" name="db_375251921131110178"/>
+    <schema id="230" parent="1" name="db_376013822102311170"/>
+    <schema id="231" parent="1" name="db_378153956092609174"/>
+    <schema id="232" parent="1" name="db_380142018101209178"/>
+    <schema id="233" parent="1" name="db_383972854142802177"/>
+    <schema id="234" parent="1" name="db_384111259121201176"/>
+    <schema id="235" parent="1" name="db_384270107152011174"/>
+    <schema id="236" parent="1" name="db_386194932110712180"/>
+    <schema id="237" parent="1" name="db_387962837110712188"/>
+    <schema id="238" parent="1" name="db_389310639110712187"/>
+    <schema id="239" parent="1" name="db_398066738791192"/>
+    <schema id="240" parent="1" name="db_402055833141309172"/>
+    <schema id="241" parent="1" name="db_405343523110512173"/>
+    <schema id="242" parent="1" name="db_406790845152703185"/>
+    <schema id="243" parent="1" name="db_410017216279593"/>
+    <schema id="244" parent="1" name="db_410331133091801170"/>
+    <schema id="245" parent="1" name="db_412915025090702175"/>
+    <schema id="246" parent="1" name="db_413143425160811186"/>
+    <schema id="247" parent="1" name="db_413592243120809175"/>
+    <schema id="248" parent="1" name="db_414374755131611181"/>
+    <schema id="249" parent="1" name="db_415781405091801174"/>
+    <schema id="250" parent="1" name="db_416392301102211173"/>
+    <schema id="251" parent="1" name="db_416651250100512177"/>
+    <schema id="252" parent="1" name="db_417123341110712184"/>
+    <schema id="253" parent="1" name="db_417311514152909165"/>
+    <schema id="254" parent="1" name="db_420134020132103180"/>
+    <schema id="255" parent="1" name="db_422492242121901172"/>
+    <schema id="256" parent="1" name="db_423165940152011173"/>
+    <schema id="257" parent="1" name="db_423282552121304185"/>
+    <schema id="258" parent="1" name="db_423651935141511171"/>
+    <schema id="259" parent="1" name="db_425712245091801178"/>
+    <schema id="260" parent="1" name="db_427132445110712186"/>
+    <schema id="261" parent="1" name="db_430870757151212171"/>
+    <schema id="262" parent="1" name="db_433624932132503186"/>
+    <schema id="263" parent="1" name="db_434611548091701176"/>
+    <schema id="264" parent="1" name="db_434900436162011174"/>
+    <schema id="265" parent="1" name="db_435223338110712181"/>
+    <schema id="266" parent="1" name="db_436643343130412172"/>
+    <schema id="267" parent="1" name="db_438102440111311188"/>
+    <schema id="268" parent="1" name="db_442462339110712182"/>
+    <schema id="269" parent="1" name="db_443445912162109184"/>
+    <schema id="270" parent="1" name="db_444063813150606187"/>
+    <schema id="271" parent="1" name="db_445650342142009175"/>
+    <schema id="272" parent="1" name="db_446864343110712184"/>
+    <schema id="273" parent="1" name="db_448064042666632"/>
+    <schema id="274" parent="1" name="db_449975212152703188"/>
+    <schema id="275" parent="1" name="db_450583616102109186"/>
+    <schema id="276" parent="1" name="db_451551622110512176"/>
+    <schema id="277" parent="1" name="db_454212022172811172"/>
+    <schema id="278" parent="1" name="db_455721738110712186"/>
+    <schema id="279" parent="1" name="db_456161128163007185"/>
+    <schema id="280" parent="1" name="db_456292333110712187"/>
+    <schema id="281" parent="1" name="db_458292350142109184"/>
+    <schema id="282" parent="1" name="db_459912813170712181"/>
+    <schema id="283" parent="1" name="db_460230721162308175"/>
+    <schema id="284" parent="1" name="db_460573043152011172"/>
+    <schema id="285" parent="1" name="db_460851525141807173"/>
+    <schema id="286" parent="1" name="db_461490904090412178"/>
+    <schema id="287" parent="1" name="db_472434930150808176"/>
+    <schema id="288" parent="1" name="db_475795415102308178"/>
+    <schema id="289" parent="1" name="db_476092843080512184"/>
+    <schema id="290" parent="1" name="db_476323546110712181"/>
+    <schema id="291" parent="1" name="db_477185348110712184"/>
+    <schema id="292" parent="1" name="db_478981538142109180"/>
+    <schema id="293" parent="1" name="db_479054420152211175"/>
+    <schema id="294" parent="1" name="db_479733255081701174"/>
+    <schema id="295" parent="1" name="db_479734555082011171"/>
+    <schema id="296" parent="1" name="db_481133244110712188"/>
+    <schema id="297" parent="1" name="db_481530050102011186"/>
+    <schema id="298" parent="1" name="db_483252400092208185"/>
+    <schema id="299" parent="1" name="db_485621944162011174"/>
+    <schema id="300" parent="1" name="db_485631522131110174"/>
+    <schema id="301" parent="1" name="db_501215357080412173"/>
+    <schema id="302" parent="1" name="db_501292216160811183"/>
+    <schema id="303" parent="1" name="db_503682711151508177"/>
+    <schema id="304" parent="1" name="db_503743442141608182"/>
+    <schema id="305" parent="1" name="db_504321230110712183"/>
+    <schema id="306" parent="1" name="db_504655251130205180"/>
+    <schema id="307" parent="1" name="db_505555308151101187"/>
+    <schema id="308" parent="1" name="db_506780041101408178"/>
+    <schema id="309" parent="1" name="db_507132618150911160"/>
+    <schema id="310" parent="1" name="db_508390228090902183"/>
+    <schema id="311" parent="1" name="db_509322118151901178"/>
+    <schema id="312" parent="1" name="db_510333042141210178"/>
+    <schema id="313" parent="1" name="db_510792106090412176"/>
+    <schema id="314" parent="1" name="db_512961352760140"/>
+    <schema id="315" parent="1" name="db_515264342090811183"/>
+    <schema id="316" parent="1" name="db_516694248152011177"/>
+    <schema id="317" parent="1" name="db_518874229110712185"/>
+    <schema id="318" parent="1" name="db_519710642091210176"/>
+    <schema id="319" parent="1" name="db_520635906141610171"/>
+    <schema id="320" parent="1" name="db_520951101140711188"/>
+    <schema id="321" parent="1" name="db_521573208152211172"/>
+    <schema id="322" parent="1" name="db_522462514140911188"/>
+    <schema id="323" parent="1" name="db_522685214171001186"/>
+    <schema id="324" parent="1" name="db_525733732110805186"/>
+    <schema id="325" parent="1" name="db_526001610092109184"/>
+    <schema id="326" parent="1" name="db_526694334130103175"/>
+    <schema id="327" parent="1" name="db_529634910142111170"/>
+    <schema id="328" parent="1" name="db_531510156122109186"/>
+    <schema id="329" parent="1" name="db_533414253142211178"/>
+    <schema id="330" parent="1" name="db_536095247131309173"/>
+    <schema id="331" parent="1" name="db_536241240110712186"/>
+    <schema id="332" parent="1" name="db_540330705112311172"/>
+    <schema id="333" parent="1" name="db_544594527140809176"/>
+    <schema id="334" parent="1" name="db_546870352081708188"/>
+    <schema id="335" parent="1" name="db_548431715172712171"/>
+    <schema id="336" parent="1" name="db_551030858121809184"/>
+    <schema id="337" parent="1" name="db_551631923101901180"/>
+    <schema id="338" parent="1" name="db_552734312171701178"/>
+    <schema id="339" parent="1" name="db_553395657162109185"/>
+    <schema id="340" parent="1" name="db_555551830132103181"/>
+    <schema id="341" parent="1" name="db_557363837130802174"/>
+    <schema id="342" parent="1" name="db_559792832150501170"/>
+    <schema id="343" parent="1" name="db_560914631110712183"/>
+    <schema id="344" parent="1" name="db_565100055160512171"/>
+    <schema id="345" parent="1" name="db_567084224100712170"/>
+    <schema id="346" parent="1" name="db_570934753161509172"/>
+    <schema id="347" parent="1" name="db_576022206150802170"/>
+    <schema id="348" parent="1" name="db_576855920170512186"/>
+    <schema id="349" parent="1" name="db_582042501142411172"/>
+    <schema id="350" parent="1" name="db_585043619091605173"/>
+    <schema id="351" parent="1" name="db_585110456102210185"/>
+    <schema id="352" parent="1" name="db_585340549112009173"/>
+    <schema id="353" parent="1" name="db_585585054141608185"/>
+    <schema id="354" parent="1" name="db_587483711102411176"/>
+    <schema id="355" parent="1" name="db_589164416172108180"/>
+    <schema id="356" parent="1" name="db_600390610150904185"/>
+    <schema id="357" parent="1" name="db_602001412173011186"/>
+    <schema id="358" parent="1" name="db_603360734131909170"/>
+    <schema id="359" parent="1" name="db_604694205091511172"/>
+    <schema id="360" parent="1" name="db_606114510090512175"/>
+    <schema id="361" parent="1" name="db_608463739121810178"/>
+    <schema id="362" parent="1" name="db_609671532132503184"/>
+    <schema id="363" parent="1" name="db_611283023172811177"/>
+    <schema id="364" parent="1" name="db_613053312151508175"/>
+    <schema id="365" parent="1" name="db_615433903111012184"/>
+    <schema id="366" parent="1" name="db_615573619171001182"/>
+    <schema id="367" parent="1" name="db_616065336101012182"/>
+    <schema id="368" parent="1" name="db_616105003160709177"/>
+    <schema id="369" parent="1" name="db_617730633110712188"/>
+    <schema id="370" parent="1" name="db_618682258081711175"/>
+    <schema id="371" parent="1" name="db_621560138110712184"/>
+    <schema id="372" parent="1" name="db_622834657100802177"/>
+    <schema id="373" parent="1" name="db_624142411111701177"/>
+    <schema id="374" parent="1" name="db_624875021141610173"/>
+    <schema id="375" parent="1" name="db_626821624102609178"/>
+    <schema id="376" parent="1" name="db_627304351160703176"/>
+    <schema id="377" parent="1" name="db_630474008142707182"/>
+    <schema id="378" parent="1" name="db_630564521172811170"/>
+    <schema id="379" parent="1" name="db_630761644110712188"/>
+    <schema id="380" parent="1" name="db_638914935110712188"/>
+    <schema id="381" parent="1" name="db_641740644162009176"/>
+    <schema id="382" parent="1" name="db_643105536130806186"/>
+    <schema id="383" parent="1" name="db_643740718152703173"/>
+    <schema id="384" parent="1" name="db_650143748092410162"/>
+    <schema id="385" parent="1" name="db_651332743110712187"/>
+    <schema id="386" parent="1" name="db_656773332110712180"/>
+    <schema id="387" parent="1" name="db_657440520152909161"/>
+    <schema id="388" parent="1" name="db_657625729110712185"/>
+    <schema id="389" parent="1" name="db_659563936110712187"/>
+    <schema id="390" parent="1" name="db_660953438150312182"/>
+    <schema id="391" parent="1" name="db_662273648110712182"/>
+    <schema id="392" parent="1" name="db_665074225142010166"/>
+    <schema id="393" parent="1" name="db_670124047122109187"/>
+    <schema id="394" parent="1" name="db_670635433122009177"/>
+    <schema id="395" parent="1" name="db_672953114150802177"/>
+    <schema id="396" parent="1" name="db_673213138152510180"/>
+    <schema id="397" parent="1" name="db_673712011101209177"/>
+    <schema id="398" parent="1" name="db_675644425101309170"/>
+    <schema id="399" parent="1" name="db_675732916173105185"/>
+    <schema id="400" parent="1" name="db_676615350160412186"/>
+    <schema id="401" parent="1" name="db_677054941110712188"/>
+    <schema id="402" parent="1" name="db_678174557081711176"/>
+    <schema id="403" parent="1" name="db_682134423161411163"/>
+    <schema id="404" parent="1" name="db_683394904162009170"/>
+    <schema id="405" parent="1" name="db_685572916162709176"/>
+    <schema id="406" parent="1" name="db_687201927152209165"/>
+    <schema id="407" parent="1" name="db_700254000092803187"/>
+    <schema id="408" parent="1" name="db_702124330110712186"/>
+    <schema id="409" parent="1" name="db_704474618090203170"/>
+    <schema id="410" parent="1" name="db_707742330142109180"/>
+    <schema id="411" parent="1" name="db_708630453161805178"/>
+    <schema id="412" parent="1" name="db_709464310150811164"/>
+    <schema id="413" parent="1" name="db_710335740162811184"/>
+    <schema id="414" parent="1" name="db_713675648092609170"/>
+    <schema id="415" parent="1" name="db_713780414102411177"/>
+    <schema id="416" parent="1" name="db_714692322151611185"/>
+    <schema id="417" parent="1" name="db_717170029101801175"/>
+    <schema id="418" parent="1" name="db_721265108100805180"/>
+    <schema id="419" parent="1" name="db_721994048162011176"/>
+    <schema id="420" parent="1" name="db_724764248081708186"/>
+    <schema id="421" parent="1" name="db_725700645110712180"/>
+    <schema id="422" parent="1" name="db_728140245091309180"/>
+    <schema id="423" parent="1" name="db_728431021172811170"/>
+    <schema id="424" parent="1" name="db_735872840110712187"/>
+    <schema id="425" parent="1" name="db_737592110131107171"/>
+    <schema id="426" parent="1" name="db_737763351142209171"/>
+    <schema id="427" parent="1" name="db_737903217151412166"/>
+    <schema id="428" parent="1" name="db_740830952140808171"/>
+    <schema id="429" parent="1" name="db_741801537152710172"/>
+    <schema id="430" parent="1" name="db_741932747132007171"/>
+    <schema id="431" parent="1" name="db_742675026101901183"/>
+    <schema id="432" parent="1" name="db_743100110170512174"/>
+    <schema id="433" parent="1" name="db_743461500093008188"/>
+    <schema id="434" parent="1" name="db_749695741090702183"/>
+    <schema id="435" parent="1" name="db_751133517111012182"/>
+    <schema id="436" parent="1" name="db_751595201090412178"/>
+    <schema id="437" parent="1" name="db_752993954161509177"/>
+    <schema id="438" parent="1" name="db_753613920092109186"/>
+    <schema id="439" parent="1" name="db_757620754132009174"/>
+    <schema id="440" parent="1" name="db_758822834110712181"/>
+    <schema id="441" parent="1" name="db_759235436130103172"/>
+    <schema id="442" parent="1" name="db_761793031110712183"/>
+    <schema id="443" parent="1" name="db_762570939081611177"/>
+    <schema id="444" parent="1" name="db_764322233092112176"/>
+    <schema id="445" parent="1" name="db_765253508152011174"/>
+    <schema id="446" parent="1" name="db_769224844110712186"/>
+    <schema id="447" parent="1" name="db_770152603160512172"/>
+    <schema id="448" parent="1" name="db_771120224172811178"/>
+    <schema id="449" parent="1" name="db_772363111152703183"/>
+    <schema id="450" parent="1" name="db_775035041132211175"/>
+    <schema id="451" parent="1" name="db_775495639110712182"/>
+    <schema id="452" parent="1" name="db_778125122172811173"/>
+    <schema id="453" parent="1" name="db_785112754082009174"/>
+    <schema id="454" parent="1" name="db_786064440110712187"/>
+    <schema id="455" parent="1" name="db_787445943110712185"/>
+    <schema id="456" parent="1" name="db_789965353081701173"/>
+    <schema id="457" parent="1" name="db_801265636110712188"/>
+    <schema id="458" parent="1" name="db_806250340080404182"/>
+    <schema id="459" parent="1" name="db_806724437110712186"/>
+    <schema id="460" parent="1" name="db_807390536162809165"/>
+    <schema id="461" parent="1" name="db_810750148110712187"/>
+    <schema id="462" parent="1" name="db_816392730110712184"/>
+    <schema id="463" parent="1" name="db_818040953082211171"/>
+    <schema id="464" parent="1" name="db_823281044162703185"/>
+    <schema id="465" parent="1" name="db_824295639092103176"/>
+    <schema id="466" parent="1" name="db_826743335110712186"/>
+    <schema id="467" parent="1" name="db_828053602141511173"/>
+    <schema id="468" parent="1" name="db_833104447110712181"/>
+    <schema id="469" parent="1" name="db_834195355130304181"/>
+    <schema id="470" parent="1" name="db_837352227091309185"/>
+    <schema id="471" parent="1" name="db_838063142113011182"/>
+    <schema id="472" parent="1" name="db_838392513140706186"/>
+    <schema id="473" parent="1" name="db_838443619131409173"/>
+    <schema id="474" parent="1" name="db_841242651112009171"/>
+    <schema id="475" parent="1" name="db_841271527091711170"/>
+    <schema id="476" parent="1" name="db_848555603091511170"/>
+    <schema id="477" parent="1" name="db_849731608152802174"/>
+    <schema id="478" parent="1" name="db_852174509122112172"/>
+    <schema id="479" parent="1" name="db_853291655132510162"/>
+    <schema id="480" parent="1" name="db_853562814091708184"/>
+    <schema id="481" parent="1" name="db_855431848110712180"/>
+    <schema id="482" parent="1" name="db_856722336110712187"/>
+    <schema id="483" parent="1" name="db_857050443131309174"/>
+    <schema id="484" parent="1" name="db_857934758131302176"/>
+    <schema id="485" parent="1" name="db_859253759141611187"/>
+    <schema id="486" parent="1" name="db_859523339101711177"/>
+    <schema id="487" parent="1" name="db_860025929100712178"/>
+    <schema id="488" parent="1" name="db_866035211132102170"/>
+    <schema id="489" parent="1" name="db_866800641908806"/>
+    <schema id="490" parent="1" name="db_869160530152009172"/>
+    <schema id="491" parent="1" name="db_869755003091412183"/>
+    <schema id="492" parent="1" name="db_870273515142109178"/>
+    <schema id="493" parent="1" name="db_870794507170412174"/>
+    <schema id="494" parent="1" name="db_870972551153110174"/>
+    <schema id="495" parent="1" name="db_871431132161405180"/>
+    <schema id="496" parent="1" name="db_872901732110712180"/>
+    <schema id="497" parent="1" name="db_874771558130711184"/>
+    <schema id="498" parent="1" name="db_877731604130801181"/>
+    <schema id="499" parent="1" name="db_877765240140902172"/>
+    <schema id="500" parent="1" name="db_877781938090204185"/>
+    <schema id="501" parent="1" name="db_878155859111004184"/>
+    <schema id="502" parent="1" name="db_879770344140501182"/>
+    <schema id="503" parent="1" name="db_881164519112905183"/>
+    <schema id="504" parent="1" name="db_881570135110712182"/>
+    <schema id="505" parent="1" name="db_881893240121611172"/>
+    <schema id="506" parent="1" name="db_886651455092609171"/>
+    <schema id="507" parent="1" name="db_886764823170301198"/>
+    <schema id="508" parent="1" name="db_887872020083008181"/>
+    <schema id="509" parent="1" name="db_913285755786561"/>
+    <schema id="510" parent="1" name="db_967875830919478"/>
+    <schema id="511" parent="1" name="db_986511562689217"/>
+    <schema id="512" parent="1" name="dubbokeeper"/>
+    <schema id="513" parent="1" name="dzg_finance"/>
+    <schema id="514" parent="1" name="dzg_ocr"/>
+    <schema id="515" parent="1" name="goshop_cms"/>
+    <schema id="516" parent="1" name="goshop_goods"/>
+    <schema id="517" parent="1" name="goshop_store"/>
+    <schema id="518" parent="1" name="goshop_user"/>
+    <schema id="519" parent="1" name="goshop_user_test"/>
+    <schema id="520" parent="1" name="goshop_user_test_read"/>
+    <schema id="521" parent="1" name="information_schema"/>
+    <schema id="522" parent="1" name="mysql"/>
+    <schema id="523" parent="1" name="performance_schema"/>
+    <schema id="524" parent="1" name="rms"/>
+    <schema id="525" parent="1" name="rockxinhu_fabu"/>
+    <schema id="526" parent="1" name="smartpc"/>
+    <schema id="527" parent="1" name="sys"/>
+    <schema id="528" parent="1" name="tianyinfeng_1"/>
+    <schema id="529" parent="1" name="weekly"/>
+    <schema id="530" parent="1" name="yuwe"/>
+    <schema id="531" parent="1" name="db_641705852110801194"/>
+    <table id="532" parent="2" name="export_tasks"/>
+    <table id="533" parent="2" name="infoname"/>
+    <table id="534" parent="2" name="zt"/>
+    <column id="535" parent="532" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="536" parent="532" name="site">
+      <Position>2</Position>
+      <Comment>站点</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="537" parent="532" name="account">
+      <Position>3</Position>
+      <Comment>站点登陆名</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="538" parent="532" name="zt_id">
+      <Position>4</Position>
+      <Comment>账套id</Comment>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="539" parent="532" name="infoname_id">
+      <Position>5</Position>
+      <Comment>项目名称id</Comment>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="540" parent="532" name="infodata">
+      <Position>6</Position>
+      <Comment>数据串json</Comment>
+      <DataType>longtext|0</DataType>
+    </column>
+    <column id="541" parent="532" name="kjqj">
+      <Position>7</Position>
+      <Comment>会计期间</Comment>
+      <DataType>char(6)|0</DataType>
+    </column>
+    <index id="542" parent="532" name="export_tasks_id_uindex">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="543" parent="532" name="export_tasks_infoname_id_fk">
+      <ColNames>infoname_id</ColNames>
+    </index>
+    <index id="544" parent="532" name="export_tasks_zt_id_fk">
+      <ColNames>zt_id</ColNames>
+    </index>
+    <key id="545" parent="532" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="546" parent="532" name="export_tasks_id_uindex">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>export_tasks_id_uindex</UnderlyingIndexName>
+    </key>
+    <foreign-key id="547" parent="532" name="export_tasks_zt_id_fk">
+      <ColNames>zt_id</ColNames>
+      <RefSchemaName>cicjust_splinter</RefSchemaName>
+      <RefTableName>zt</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="548" parent="532" name="export_tasks_infoname_id_fk">
+      <ColNames>infoname_id</ColNames>
+      <RefSchemaName>cicjust_splinter</RefSchemaName>
+      <RefTableName>infoname</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="549" parent="533" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="550" parent="533" name="infoname">
+      <Position>2</Position>
+      <Comment>项目名称</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="551" parent="533" name="site">
+      <Position>3</Position>
+      <Comment>站点名称</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="552" parent="533" name="infoname_id_uindex">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="553" parent="533" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="554" parent="533" name="infoname_id_uindex">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>infoname_id_uindex</UnderlyingIndexName>
+    </key>
+    <column id="555" parent="534" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="556" parent="534" name="ztname">
+      <Position>2</Position>
+      <Comment>账套名称</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="557" parent="534" name="site">
+      <Position>3</Position>
+      <Comment>站点名称</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="558" parent="534" name="start_time">
+      <Position>4</Position>
+      <Comment>账套开始导出时间</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="559" parent="534" name="finished_time">
+      <Position>5</Position>
+      <Comment>账套导出结束时间</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="560" parent="534" name="status">
+      <Position>6</Position>
+      <Comment>账套导出进度</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="561" parent="534" name="zt_id_uindex">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="562" parent="534" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="563" parent="534" name="zt_id_uindex">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>zt_id_uindex</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

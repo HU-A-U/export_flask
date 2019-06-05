@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="test@localhost" uuid="f7f7d1de-8f8d-426c-9eb2-91c80996b3e8">
+      <database-info product="MySQL" version="5.7.23-0ubuntu0.16.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MYSQL" exact-version="5.7.23">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:@,mysql</introspection-schemas>
+      <resolve-scope>test:</resolve-scope>
+      <unqualified-resolve-schemas>test:</unqualified-resolve-schemas>
+    </data-source>
+    <data-source name="cicjust_splinter@192.168.1.170" uuid="5def35b8-cc60-4d07-bf32-e5efdbe6ac97">
+      <database-info product="MySQL" version="5.7.10" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MYSQL" exact-version="5.7.10">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>cic_admin</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+      <resolve-scope>cicjust_splinter:</resolve-scope>
+      <unqualified-resolve-schemas>cicjust_splinter:</unqualified-resolve-schemas>
+    </data-source>
+  </component>
+</project>
