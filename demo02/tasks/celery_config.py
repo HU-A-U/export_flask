@@ -16,7 +16,6 @@ RABBITMQ_PORT = 5672
 # 注意，celery4版本后，CELERY_BROKER_URL改为BROKER_URL
 from kombu import Queue, Exchange
 
-
 BROKER_URL = 'amqp://cic_admin:JYcxys@3030@{}:{}/flask_export'.format(RABBITMQ_HOST,RABBITMQ_PORT)
 # BROKER_URL = 'amqp://test:test@127.0.0.1:5672/test'
 # 指定结果的接受地址
@@ -79,7 +78,7 @@ CELERY_ROUTES = {
     'tasks.tasks.export_out_kungeek': {'queue': 'export_out_kungeek', 'routing_key': 'kungeek'},
     'tasks.tasks.export_out_yiqidai': {'queue': 'export_out_yiqidai', 'routing_key': 'yiqidai'},
 }
-    
+
 ''''
 # 指定任务序列化方式
 CELERY_TASK_SERIALIZER = 'msgpack'
